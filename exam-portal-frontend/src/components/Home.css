@@ -1,0 +1,66 @@
+/* ...previous styles... */
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  bottom: 20%;
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  color: #fff;
+}
+
+.carousel-caption p {
+  color: #f7f9fc;
+}
+/* App.css */
+.homepage {
+  text-align: center;
+  padding: 50px;
+  background-color: #f7f9fc;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 15px;
+}
+
+.feature h2 {
+  margin-top: 20px;
+}
+
+.feature-icon {
+  font-size: 48px;
+  color: black;
+}
+
+.cta {
+  margin-top: 50px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* ...previous styles... */

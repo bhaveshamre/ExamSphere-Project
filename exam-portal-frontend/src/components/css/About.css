@@ -1,0 +1,170 @@
+/* About.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #949cc8;
+    background-image: url('../images/Wadi.jpg');
+    background-size: cover; /* or use "contain" to fit the entire image */
+    background-position: center; /* centers the image */
+    background-repeat: no-repeat; /* prevents the image from repeating */
+    background-attachment: fixed; /* keeps the background fixed when scrolling */
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: rgb(194, 194, 253); /* Dark blue */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #326fa2; /* Light blue */
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+ /* .features-section {
+    background-color: #9e8b8b;
+    padding: 50px 0;
+  }
+  
+  .features-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .features-section .col-md-6 {
+    margin-bottom: 30px;
+  }
+  
+  .features-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .features-section p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .features-section .row {
+    justify-content: center;
+  }
+  */
+  /* Customize the styles for your features section */
+  .features-section {
+    padding: 80px 0;
+    background-image: url('../images/About.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    padding: 30px;
+    border: 1px solid #472525;
+    /* background-color: #326fa2; */
+    background-color: #326fa2;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+
+  /*Icons css*/
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  
